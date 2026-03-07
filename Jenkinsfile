@@ -76,10 +76,10 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo "Pipeline finished! Check http://13.204.85.107:3000"
-        }
+    // post {
+    //     always {
+    //         echo "Pipeline finished! Check http://13.204.85.107:3000"
+    //     }
     }
 }
 
