@@ -7,8 +7,8 @@ pipeline {
         IMAGE_TAG       = "${BUILD_NUMBER}"
         CONTAINER_NAME = "indie-gems-container"
         PORT = "9676"   // External port for app
-        DOCKERHUB_USER  = "kishorekorla1993"
-        DOCKER_CREDS    = "1234"
+        DOCKERHUB_USER  = "pavansai33"
+        DOCKER_CREDS    = "pavansai33"
         CONTAINER_PORT  = "80"
     }
 
@@ -16,7 +16,8 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 dir("${WORK_DIR}") {
-                    git branch: 'main', url: 'https://github.com/satyanarayana-24/Indie_Gems_Portal.git'
+https://github.com/myself-8816/Indie_Gems_Portal.git
+
                 }
             }
         }
